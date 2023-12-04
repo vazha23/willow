@@ -1,0 +1,646 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+.background_container {
+  display: flex;
+  width: 100%;
+  height: 390vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.main_page_container {
+  display: flex;
+  width: 100%;
+  height: 110vh;
+  align-items: center;
+  flex-direction: column;
+}
+.header_container {
+  display: flex;
+  /* position: fixed; */
+  width: 100%;
+  height: 20%;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  align-items: start;
+  background: radial-gradient(
+    140% 80% at bottom,
+    transparent 50%,
+    rgb(103, 103, 208) 51%
+  );
+}
+.web_name_container {
+  display: flex;
+  width: 10%;
+  height: 70%;
+  /* border: 2px solid blue; */
+  align-items: center;
+  justify-content: center;
+}
+.web_name_container div {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.header_menu_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  height: 70%;
+  /* border: 2px solid blue; */
+}
+.header_menu_container div {
+  display: flex;
+  width: 16%;
+  height: 80%;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.header_menu_container a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 550;
+}
+.header_menu_container a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.lang_change_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 70%;
+  /* border: 2px solid blue; */
+}
+#globe{
+  color: white;
+  cursor: pointer;
+  font-size: 100%;
+}
+.lang_changing {
+  display: flex;
+  width: 65%;
+  height: 40%;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+}
+.language_select {
+  display: flex;
+  width: 90%;
+  height: 70%;
+  border-radius: 10px;
+  padding-left: 20%;
+  padding-right: 10%;
+  border: 0px;
+  outline: none;
+  background-color: rgb(152, 152, 248);
+  color: white;
+  font-weight: 700;
+}
+.our_service_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 70%;
+  border-bottom: 1px solid rgb(67, 89, 231);
+}
+.about_trip_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 80%;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px 1px rgb(143, 143, 250);
+}
+.informacion_cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 55%;
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.caffe_name_cont {
+  display: flex;
+  width: 100%;
+  height: 17%;
+  /* border: 2px solid red; */
+  align-items: start;
+  justify-content: center;
+}
+.caffe_name_cont h3 {
+  color: rgb(0, 0, 255);
+  font-size: 21px;
+  font-weight: 700;
+}
+.caffee_address_container {
+  display: flex;
+  width: 100%;
+  height: 7%;
+  /* border: 2px solid red; */
+  align-items: end;
+  justify-content: center;
+}
+.caffee_address_container h6 {
+  color: blue;
+  font-size: 14px;
+  font-weight: 100;
+  /* border: 2px solid red; */
+}
+.caffee_info_cont {
+  display: flex;
+  width: 90%;
+  height: 65%;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid white;
+}
+.caffee_info_cont p {
+  color: rgb(71, 71, 194);
+  font-size: 14px;
+  font-weight: 200;
+}
+.caffee_image {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  /* border: 2px solid red; */
+}
+.caffee_image img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.boatTrip_name_cont {
+  display: flex;
+  width: 100%;
+  height: 17%;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+}
+.boatTrip_name_cont h3 {
+  color: rgb(0, 0, 255);
+  font-size: 17px;
+  font-weight: 700;
+}
+.trip_info_cont {
+  display: flex;
+  width: 90%;
+  height: 65%;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid white;
+}
+.trip_info_cont p {
+  color: rgb(71, 71, 194);
+  font-size: 14px;
+  font-weight: 200;
+}
+.about_us_info_container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  width: 90%;
+  height: 95vh;
+  border-bottom: 3px solid rgb(67, 89, 231);
+}
+.about_us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 10%;
+  /* border: 2px solid red; */
+}
+.about_us h2 {
+  color: rgb(94, 94, 248);
+  font-size: 27px;
+  font-weight: 700;
+}
+.our_informacion_contact_cont {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 80%;
+  /* border: 2px solid red; */
+}
+.offer_us_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+  /* border: 2px solid yellow; */
+}
+.offer_us_cont div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+.offer_us_cont h4 {
+  color: blue;
+  font-size: 21px;
+  font-weight: 400;
+}
+.our_location_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 80%;
+  /* border: 2px solid blue; */
+}
+.location_icon_cont {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  height: 20%;
+  /* border: 2px solid yellow; */
+}
+.location_icon_cont i {
+  color: blue;
+  font-size: 45px;
+}
+.our_loc_title_cont {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  height: 15%;
+  /* border: 2px solid yellow; */
+}
+.our_loc_title_cont h2 {
+  color: black;
+  font-size: 25px;
+  padding-left: 5%;
+}
+.location_info_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  width: 100%;
+  height: 50%;
+  /* border: 2px solid yellow; */
+}
+.location_info_container p {
+  color: black;
+  font-size: 15px;
+  padding-left: 5%;
+}
+.location_info_container a {
+  color: rgb(80, 80, 233);
+}
+.contact_us_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 80%;
+  /* border: 2px solid blue; */
+}
+.contact_icon_cont {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  height: 20%;
+  /* border: 2px solid red; */
+}
+.contact_icon_cont i {
+  color: blue;
+  font-size: 43px;
+}
+.contact_title_cont {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  height: 15%;
+  /* border: 2px solid red; */
+}
+.contact_title_cont h2 {
+  color: black;
+  font-size: 24px;
+  padding-left: 5%;
+}
+.our_contacts_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  width: 100%;
+  height: 57%;
+  /* border: 2px solid red; */
+}
+.contact {
+  display: flex;
+  width: 100%;
+  height: 25%;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  /* gap: 7%; */
+  /* border: 2px solid red; */
+}
+.contact h6 {
+  color: black;
+  font-size: 15px;
+  padding-left: 5%;
+  font-weight: 100;
+}
+.social_pages_cont {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  /* border: 2px solid red; */
+}
+.social_pages_cont h2 {
+  color: black;
+  font-size: 17px;
+  padding-left: 5%;
+}
+.social_icon_cont {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 13%;
+  width: 100%;
+  height: 70%;
+  /* border: 2px solid blue; */
+}
+.social_icon_cont i {
+  font-size: 30px;
+  color: gray;
+  padding-left: 5%;
+  cursor: pointer;
+}
+
+.for_booking_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid red; */
+}
+.booking_offer_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 8%;
+  /* border: 2px solid green; */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.booking_offer_container p {
+  font-size: 21px;
+  color: blue;
+  font-weight: 400;
+}
+.for_calendar_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 70%;
+  /* border: 2px solid yellow; */
+}
+.calendar_cont {
+  width: 55%;
+  height: 95%;
+  background-color: cadetblue;
+  box-shadow: 2px 2px 10px 2px rgba(34, 0, 255, 0.419);
+}
+.month {
+  width: 100%;
+  height: 25%;
+  background-color: rgb(62, 62, 187);
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.month h1 {
+  font-weight: 400;
+}
+.month i {
+  font-size: 27px;
+  color: rgb(206, 199, 199);
+  cursor: pointer;
+}
+.weekdays {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.weekdays div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(20rem /7);
+  height: 90%;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  /* border: 1px solid red; */
+}
+.days {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 65%;
+  /* border: 2px solid red; */
+  flex-wrap: wrap;
+}
+.days div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  width: calc(20rem / 7);
+  height: 13%;
+  color: white;
+  /* border: 1px solid red; */
+  transition: background-color 0.2s;
+}
+.days div:hover:not(.today) {
+  background-color: rgb(62, 62, 187);
+  border: 2px solid rgb(31, 31, 153);
+  cursor: pointer;
+}
+.prev-date,
+.next-date {
+  opacity: 0.6;
+}
+.today {
+  background-color: rgb(62, 62, 187);
+}
+.user_info_booking_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 70%;
+  /* border: 2px solid yellow; */
+}
+.user_booking_cont {
+  display: flex;
+  width: 50%;
+  height: 90%;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.user_booking_cont div {
+  display: flex;
+  width: 100%;
+  height: 12%;
+  align-items: center;
+  justify-content: center;
+}
+.user_booking_cont input {
+  display: flex;
+  width: 100%;
+  height: 98%;
+  border: 1px solid rgb(26, 26, 26);
+  color: rgb(0, 0, 186);
+  padding-left: 5%;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  outline: none;
+  /* appearance: none; */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.booking_button {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  color: white;
+  border: 0px;
+  border-radius: 8px;
+  background-color: rgb(65, 65, 215);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+.time_container {
+  gap: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+.time_type_chek input {
+  width: 20px;
+  height: 20px;
+  accent-color: blue;
+  gap: 1px;
+  cursor: pointer;
+}
+.time_container select {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  color: rgb(75, 75, 75);
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 1rem;
+  appearance: none;
+}
+.our_images_container {
+  display: flex;
+  width: 90%;
+  height: 50vh;
+  justify-content: center;
+}
+#carouselExampleAutoplaying{
+  width: 100%;
+  height: 100%;
+}
+.carousel-inner{
+  display: flex;
+  height: 100%;
+}
+.items{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2px;
+}
+.items img{
+  width: 400px;
+  height:  330px;
+}
+.main_footer{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  border: 2px solid red;
+}
